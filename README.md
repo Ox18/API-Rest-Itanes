@@ -3,7 +3,7 @@ Rest API hecha con SQLite, TypeScript y ExpressJS
 
 # Este repositorio es parte del proyecto final de Desarrollo de Aplicaciones Moviles
 # Nota:
-  Solo esta disponible la locacion de Machu Picchu.
+  Solo esta disponible el paquete de Machu Picchu junto a sus lugares.
   
 # Puedes usar las siguientes rutas:
 

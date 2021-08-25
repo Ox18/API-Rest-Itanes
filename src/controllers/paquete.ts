@@ -4,8 +4,9 @@ import PaqueteModel from '../Model/Paquete';
 class PaqueteController {
     static async getAll(req: Request, res: Response) {
         try {
-            const response = await PaqueteModel.get();
+            const response:any = await PaqueteModel.get();
             res.json({
+                counts: response.length,
                 results: response
             });
         } catch (ex) {

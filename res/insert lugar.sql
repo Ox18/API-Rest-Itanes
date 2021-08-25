@@ -1,0 +1,2 @@
+insert into lugar("idPaquete", "nombre", "descripcion", "photoURI", "coordinateA", "coordinateB")
+values(12, "Vinicunca", "Vinicunca o Winikunka, llamada también Montaña de Siete Colores, Montaña Arcoíris o Montaña de Colores, es una montaña del Perú con una altitud de 5.200 msnm.", "https://cdn.getyourguide.com/img/tour/5d186b9e60082.jpeg/146.jpg","","");

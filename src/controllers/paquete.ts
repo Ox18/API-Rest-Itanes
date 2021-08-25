@@ -5,7 +5,9 @@ class PaqueteController {
     static async getAll(req: Request, res: Response) {
         try {
             const response = await PaqueteModel.get();
-            res.json(response);
+            res.json({
+                results: response
+            });
         } catch (ex) {
             res.status(500).json({ error: ex.message });
         }

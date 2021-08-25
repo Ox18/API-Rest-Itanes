@@ -1,6 +1,9 @@
 # API-SQLite
 Rest API hecha con SQLite, TypeScript y ExpressJS
 
+## DEMO
+http://18.118.195.116:5500/lugar/only/paquete/12
+
 # Este repositorio es parte del proyecto final de Desarrollo de Aplicaciones Moviles
 # Nota:
   Solo esta disponible el paquete de Machu Picchu junto a sus lugares.

@@ -10,7 +10,7 @@ class LugarModel{
                 if(err){
                     reject(err);
                 }else{
-                    resolve(rows);
+                    resolve({ ...rows });
                 }
             });
         });

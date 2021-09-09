@@ -4,6 +4,7 @@
   "description": "",
   "main": "src/server.ts",
   "scripts": {
+    "start": "node build/server",
     "dev": "nodemon src/server.ts",
     "build": "rm -rf build/ && prettier --write src/ && tsc"
   },
@@ -19,6 +20,7 @@
     "express": "^4.17.1",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.12",
+    "prettier": "^2.4.0",
     "sqlite3": "^5.0.2",
     "swagger-jsdoc": "^6.1.0",
     "swagger-ui-express": "^4.1.6",

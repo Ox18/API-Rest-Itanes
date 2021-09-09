@@ -1,6 +1,6 @@
 interface IPost {
-    id: Number;
-    name: String;
+  id: Number;
+  name: String;
 }
 
 export = IPost;
